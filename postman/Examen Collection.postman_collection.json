@@ -3200,14 +3200,7 @@
 					"name": "Faker",
 					"request": {
 						"auth": {
-							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "{{env_b4b_token}}",
-									"type": "string"
-								}
-							]
+							"type": "noauth"
 						},
 						"method": "GET",
 						"header": [],
@@ -3297,55 +3290,6 @@
 								}
 							]
 						}
-					},
-					"response": []
-				},
-				{
-					"name": "Logs - Create",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "aplicationId",
-									"value": "615cc22b3a45d01c69c32b78",
-									"type": "text"
-								},
-								{
-									"key": "type",
-									"value": "info",
-									"type": "text"
-								},
-								{
-									"key": "priority",
-									"value": "lowest",
-									"type": "text"
-								},
-								{
-									"key": "path",
-									"value": "users/",
-									"type": "text"
-								},
-								{
-									"key": "message",
-									"value": "Se consulto el listado de usuarios",
-									"type": "text"
-								},
-								{
-									"key": "request",
-									"value": "{}",
-									"type": "text"
-								},
-								{
-									"key": "response",
-									"value": "{}",
-									"type": "text"
-								}
-							]
-						},
-						"url": null
 					},
 					"response": []
 				}
