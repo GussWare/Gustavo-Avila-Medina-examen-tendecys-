@@ -1,0 +1,15 @@
+{
+    "name":"Sistem Template",
+    "description":"Template base del sistema, aqui contendra los keys que se utilizaran en polyglot para la internacionalización del sistema",
+    "tags": [
+        {
+            "key":"GENERAL_ERROR_NOT_FOUND",
+            "modulo":"",
+            "description":"Mensaje generico para cuando no se encuentra un registro."
+        },
+        {
+            "key":"GENERAL_ERROR_NOT_FOUND",
+            "description":"Mensaje generico para cuando no se encuentra un registro."
+        }
+    ]
+}
