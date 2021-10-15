@@ -1,5 +1,5 @@
 import httpStatus from "http-status";
-import * as logService from "../services/logs/logs.service";
+import * as logService from "../services/logss/logs.service";
 import ApiError from "../libraries/api.error.library";
 import pickHelper from "../helpers/pick.helper";
 import catchAsyncHelper from "../helpers/catch.async.helper";

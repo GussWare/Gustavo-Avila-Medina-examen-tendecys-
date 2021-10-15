@@ -1,6 +1,6 @@
 import faker from "faker";
 import * as logsAppHelper from "../helpers/logs.helper";
-import * as LogService from "../services/logs/logs.service";
+import * as LogService from "../services/logss/logs.service";
 
 export const logInitFaker = async () => {
 

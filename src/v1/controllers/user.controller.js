@@ -4,7 +4,7 @@ import ApiError from "../libraries/api.error.library";
 import pickHelper from "../helpers/pick.helper";
 import loggerHelper from "../helpers/logger.helper";
 import catchAsyncHelper from "../helpers/catch.async.helper";
-import * as logService from "../services/logs/logs.service";
+import * as logService from "../services/logss/logs.service";
 
 export const getPaginate = catchAsyncHelper(async (req, res) => {
 	const filter = pickHelper(req.query, ["username", "email"]);
